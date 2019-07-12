@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+<div class="container">
+  <form id ="Ujian" name="">
+    <img src="logoyayasan.jpg" alt="Yayasan" width="150" height="150">
+    <h1>YAYASAN AL MUBAROKAH</h1>
+    <h2>Tes Penerimaan Anak Asuh</h2>
+    <div id = "submitted">
+      <h4 id = "numCorrect"></h4>
+  </div>
+  <br>
+    <p>1. Apa arti dari Makharijul Huruf?<br><br></p>
+      <input type="radio" name="Q1" onclick="doSomething()" value="Q11">a. Bunyi Huruf<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q12">b. Bentuk Huruf<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q13">c. Tempat keluar Huruf<br>
+      <input type="radio" name="Q1" onclick="doSomething()"value="Q14">d. Tempat masuk Huruf<br><br>
+
+    <p>2. Siapa nama kakek Nabi Muhammad SAW?<br><br></p>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q21">a. Utsman Bin Affan<br>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q22">b. Abdul Muthalib<br>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q23">c. Umar Bin Khatab<br>
+    <input type="radio" name="Q2" onclick="doSomething()"value="Q24">d. Abu Bakar<br><br>
+
+
+    <p>3. Dalam hukum Tajwid, ada berapa huruf Izhar?<br><br></p>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q31">a. 8<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q32">b. 6<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q33">c. 10<br>
+    <input type="radio" name="Q3" onclick="doSomething()"value="Q34">d. 12<br><br>
+
+    <p>4. Yang termasuk dari rukun islam yaitu :<br><br></p>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q41">a. Syahadat<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q42">b. Shalat<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q43">c. Zakat<br>
+    <input type="radio" name="Q4" onclick="doSomething()"value="Q44">d. Semua jawaban benar<br><br>
+
+    <p>5. Masjidil Haram berada di kota?<br><br></p>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q51">a. Madinah<br>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q52">b. Jeddah<br>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q53">c. Makkah<br>
+    <input type="radio" name="Q5" onclick="doSomething()"value="Q53">d. Riyadh<br><br>
+
+    <div id = "newScore">
+    <h3 id = "finished"></h3>
+  </div><br>
+
+    <div id = "finalScore">
+      <h5 id = "highScore"></h5>
+
+      <p1 id = "storedScore"></p1>
+      <p1 id = "qCount"></p1>
+      <p1 id = "user"></p1>
+
+    </div>
+      <button id="button" type="button"  onclick = validateForm();>SELESAI</button>
+    </form>
+
+  </div>
+
+</html>
